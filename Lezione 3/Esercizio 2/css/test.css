@@ -1,0 +1,17 @@
+.ingrediente {
+    text-decoration: underline;
+    color: rgb(174, 116, 51);
+}
+
+.pizza-img {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+}
+
+.pizza-img img {
+    width: 600px;
+    height: 600px;
+}

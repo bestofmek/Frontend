@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: red;
+}
+
+.top-box {
+    width: 100%;
+    clear: both;
+}
+
+.top-left-box {
+    width: 70%;
+    height: 200px;
+    background-color: blue;
+    float: left;
+    border: 7px solid red;
+}
+
+.top-right-box {
+    width: 30%;
+    height: 200px;
+    background-color: aquamarine;
+    float: right;
+    border: 7px solid red;
+}
+
+.bottom-box {
+    width: 100%;
+    clear: both;
+}
+
+.bottom-left-box {
+    width: 70%;
+    height: 200px;
+    padding: 10px;
+    background-color: rgb(196, 196, 255);
+    float: left;
+    border: 7px solid red;
+}
+
+.bottom-right-box {
+    width: 30%;
+    height: 200px;
+    padding: 10px;
+    background-color: rgb(210, 125, 173);
+    float: right;
+    border: 7px solid red;
+}

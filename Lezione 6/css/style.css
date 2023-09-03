@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
-nav{
+.navbar{
     background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    padding-left: 15px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .navbar ul{

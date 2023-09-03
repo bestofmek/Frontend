@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(37, 37, 37);
+}
+
 /* start navbar */
 
 .navbar{
@@ -103,3 +107,46 @@ p{
 }
 
 /* end footer */
+
+/* start contact page */
+
+.contact-main{
+    background-color: rgb(37, 37, 37);
+}
+
+h1{
+    padding: 15px;
+    color: blanchedalmond;
+}
+
+h2{
+    padding: 15px;
+    color: blanchedalmond;
+}
+
+fieldset{
+    padding: 15px;
+    color: blanchedalmond;
+}
+
+.form-example{
+    padding: 15px;
+    color: blanchedalmond;
+}
+
+.container{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.back-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+/* end contact page */

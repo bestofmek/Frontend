@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <h1>Questa è la pagina dei contatti</h1>
+
+    <header class="contact-header">
+    <h1>Contact Us</h1>
+    </header>
+
+    <main class="contact-main">
+    <h2>Inviaci il tuo Film!</h2>
+
+        <form action="" method="get" class="form-example" name="contact-us">
+            <div class="form-example">
+                <label for="name">Il tuo nome: </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-example">
+                <label for="email">La tua email: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-example">
+                <label for="name-film">Titolo del tuo Film: </label>
+                <input type="text" name="name-film" id="name-film" required>
+            </div>
+
+            <fieldset>
+                <legend>Seleziona il genere del tuo Film:</legend>
+
+                <div>
+                    <input type="radio" id="commedia" name="commedia" value="commedia" checked>
+                    <label for="commedia">Commedia</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="horror" name="horror" value="horror">
+                    <label for="horror">Horror</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="thriller" name="thriller" value="thriller">
+                    <label for="thriller">Thriller</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="noir" name="noir" value="noir">
+                    <label for="noir">Noir</label>
+                </div>
+            </fieldset>
+            <br>
+            <div class="container">
+                <input type="submit" value="Submit your Film">
+            </div>
+
+            <div class="back-button">
+                <form>
+                    <input type="button" value="Torna alla Home" onclick="history.back()">
+                </form>
+            </div>
+
+        </form>
+    </main>
 </body>
 </html>

@@ -30,6 +30,7 @@ ul li{
     list-style-type: none;
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
  
 .nav-link a{
@@ -57,12 +58,12 @@ main{
 
 .film{
     height: 400px;
-    margin: 15px;
+    margin: 0px 15px;
 }
 
 .film h1{
     color: blanchedalmond;
-    margin-bottom: 20px ;
+    margin: 20px 0px;
 }
 
 .rightnow, .tv-series{
@@ -78,3 +79,27 @@ main{
 }
 
 /* end sections */
+
+/* start footer */
+
+.info{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.info p{
+    margin-right: 20px;
+}
+
+p{
+    color: blanchedalmond;
+}
+
+.info a {
+    color: blanchedalmond;
+}
+
+/* end footer */
